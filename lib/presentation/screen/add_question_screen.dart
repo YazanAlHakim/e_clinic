@@ -145,9 +145,6 @@ class _AddQuestionScreenState extends State<AddQuestionScreen> {
           Navigator.pop(context);
           BlocProvider.of<PostQuestionBloc>(context).add(GetQuestionEvent());
         }
-        else if (state is ChangeSwitchState){
-
-        }
       },
 
     );
